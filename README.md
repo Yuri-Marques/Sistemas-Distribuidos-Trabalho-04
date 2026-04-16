@@ -32,16 +32,16 @@ Execução: O Cliente está localizado fora dos containers de servidor simulando
 │   ├── json.hpp        # Biblioteca para manipulação de JSON 
 │   └── Dockerfile      # Configuração da imagem Docker do Mestre 
 ├── slave1/             # Pasta do Escravo 1 (Contagem) 
-│   ├── slave1.cpp      # Lógica de contagem e palavras únicas 
+│   ├── slave_words.cpp      # Lógica de contagem e palavras únicas 
 │   ├── httplib.h       
 │   ├── json.hpp        
 │   └── Dockerfile      
 ├── slave2/             # Pasta do Escravo 2 (Tamanho) 
-│   ├── slave2.cpp      # Lógica de palavra mais curta e mais longa 
+│   ├── slave_size.cpp      # Lógica de palavra mais curta e mais longa 
 │   ├── httplib.h       
 │   ├── json.hpp        
 │   └── Dockerfile      
-└── docker-compose.yml  # Arquitetura de todos os containers 
+└── docker-compose.yml  # Orquestração de todos os containers 
 ```
 
 ## Como executar
@@ -57,5 +57,12 @@ Em um novo terminal, você deve compilar e rodar o cliente utilizando um contain
 
 ` docker run --rm -it --network="rede_projeto" -v ${PWD}:/app -w /app/client gcc:latest sh -c "g++ -std=c++17 client.cpp -o cliente -pthread && ./cliente" `
 
-3. Resposta será mostrada de acordo com as palavras contidas no arquivo `palavras.txt`. 
+3. Resposta será mostrada de acordo com as palavras contidas no arquivo `palavras.txt`.
+
+## Teste
+Palavras usadas todas contidas no arquivo `palavras.txt`: `docker`, `threads`, `cpp`, `distribuido`, `docker`, `mestre`, `escravo`, `sistemas`, `si`, `programacao`, `mestre`, `escravo`, `docker`. 
+
+### Subindo o ambiente.
+
+### Executando o cliente e obtendo a resposta.
 
