@@ -65,5 +65,6 @@ Palavras usadas todas contidas no arquivo `palavras.txt`: `docker`, `threads`, `
 ### Subindo o ambiente.
 <img src="https://github.com/Yuri-Marques/Sistemas-Distribuidos-Trabalho-04/blob/main/imagens%20de%20testes/sub1.png" alt="Descrição" width="500">
 <img src="https://github.com/Yuri-Marques/Sistemas-Distribuidos-Trabalho-04/blob/main/imagens%20de%20testes/sub2.png" alt="Descrição" width="500">
+
 ### Executando o cliente e obtendo a resposta.
-<img src="https://github.com/Yuri-Marques/Sistemas-Distribuidos-Trabalho-04/blob/main/imagens%20de%20testes/execução.png" alt="Descrição" width="500">
+<img src="https://github.com/Yuri-Marques/Sistemas-Distribuidos-Trabalho-04/blob/main/imagens%20de%20testes/execução.png" alt="Descrição" width="700">
