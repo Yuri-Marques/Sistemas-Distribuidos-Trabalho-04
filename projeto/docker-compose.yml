@@ -1,0 +1,22 @@
+services:
+  master:
+    build: ./master
+    ports:
+      - "8080:8080"
+    networks:
+      - sistema_distribuido
+
+  slave1:
+    build: ./slave1
+    networks:
+      - sistema_distribuido
+
+  slave2:
+    build: ./slave2
+    networks:
+      - sistema_distribuido
+
+networks:
+  sistema_distribuido:
+    driver: bridge
+    name: rede_projeto  # Força o nome para "rede_projeto"

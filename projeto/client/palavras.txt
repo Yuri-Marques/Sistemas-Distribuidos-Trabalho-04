@@ -1,0 +1,13 @@
+docker
+threads
+cpp
+distribuido
+docker
+mestre
+escravo
+sistemas
+si
+programacao
+mestre
+escravo
+docker
