@@ -63,7 +63,7 @@ Em um novo terminal, você deve compilar e rodar o cliente utilizando um contain
 Palavras usadas todas contidas no arquivo `palavras.txt`: `docker`, `threads`, `cpp`, `distribuido`, `docker`, `mestre`, `escravo`, `sistemas`, `si`, `programacao`, `mestre`, `escravo`, `docker`. 
 
 ### Subindo o ambiente.
-```
-<img src="https://github.com/Yuri-Marques/Sistemas-Distribuidos/blob/main/images/Tela%20login.png" alt="Descrição" width="500">
+<img src="https://github.com/Yuri-Marques/Sistemas-Distribuidos-Trabalho-04/blob/main/imagens%20de%20testes/sub1.png" alt="Descrição" width="500">
+<img src="https://github.com/Yuri-Marques/Sistemas-Distribuidos-Trabalho-04/blob/main/imagens%20de%20testes/sub2.png" alt="Descrição" width="500">
 ### Executando o cliente e obtendo a resposta.
-<img src="https://github.com/Yuri-Marques/Sistemas-Distribuidos/blob/main/images/Tela%20login.png" alt="Descrição" width="500">
+<img src="https://github.com/Yuri-Marques/Sistemas-Distribuidos-Trabalho-04/blob/main/imagens%20de%20testes/execução.png" alt="Descrição" width="500">
